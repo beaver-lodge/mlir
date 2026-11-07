@@ -9,8 +9,7 @@ defmodule MLIR.MixProject do
       description: "LLVM/MLIR toolchain installation for Elixir",
       package: [
         links: %{
-          "Upstream" => "https://mlir.llvm.org/",
-          "GitHub" => "https://github.com/beaver-lodge/mlir"
+          "Upstream" => "https://mlir.llvm.org/"
         },
         licenses: ["MIT"],
         files: ["lib", "priv", "mix.exs", ".formatter.exs", "README.md", "LICENSE"]

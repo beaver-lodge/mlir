@@ -1,6 +1,6 @@
 # MLIR toolchain
 
-Install prebuilt LLVM/MLIR without compiling Beaver, a NIF, or LLVM itself.
+Install prebuilt LLVM/MLIR distributions for Elixir projects.
 The Hex package is `mlir`; Elixir modules use `MLIR.Toolchain`.
 This package distributes the installer and pinned metadata. Native archives
 remain in upstream releases and are downloaded when the install task runs.
@@ -33,5 +33,5 @@ Triton-specific LLVM selection and native core builds live in the separate
 Requires Elixir >= 1.18, curl or wget, and tar on Unix. Run `mix test` and
 `mix hex.build` from this checkout. This extraction is prepared for its first
 Hex release; a successful local package build does not publish or reserve a name.
-Installer code originates in Beaver under its MIT license; downloaded LLVM
+Installer code is distributed under the MIT license. Downloaded LLVM
 distributions retain their upstream licenses.
