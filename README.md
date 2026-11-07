@@ -27,9 +27,6 @@ another distribution. `--sha256` verifies the archive before replacement;
 invalid archives preserve the existing toolchain. Installs refuse unrelated
 nonempty directories. The package does not provide MLIR bindings or a NIF.
 
-Triton-specific LLVM selection and native core builds live in the separate
-`openai_triton` package. Triton must use its paired LLVM distribution.
-
 Requires Elixir >= 1.18, curl or wget, and tar on Unix. Run `mix test` and
 `mix hex.build` from this checkout. This extraction is prepared for its first
 Hex release; a successful local package build does not publish or reserve a name.
